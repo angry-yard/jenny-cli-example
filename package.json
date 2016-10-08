@@ -1,0 +1,25 @@
+{
+  "name": "jenny-cli-exmaple",
+  "version": "0.1.0",
+  "description": "An example of how to user jenny-cli",
+  "author": {
+    "name": "Ryan Grady",
+    "email": "ryan@angry-yard.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angry-yard/jenny-cli-example.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angry-yard/jenny-cli-example/issues"
+  },
+  "homepage": "https://github.com/angry-yard/jenny-cli-example",
+  "dependencies": {},
+  "devDependencies": {
+    "@templates/IModel": "0.0.1",
+    "@templates/csharp-rest-api": "0.0.1",
+    "jenny-mssql": "^0.5.0",
+    "typescript": "^2.0.3"
+  }
+}

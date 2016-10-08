@@ -1,0 +1,38 @@
+﻿{
+  "templateEngine": "handlebars",
+  "templates": {
+    "files": [
+      {
+        "name": "IModel",
+        "path": "./node_modules/@templates/IModel",
+        "fileName": "IModel.template",
+        "output": "c:/templates/I{{name}}.cs",
+        "fileType": "CSharp",
+        "generationMethod": "multiple",
+        "tables": [
+          "Assets", "Pads", "Scenarios", "SubPads", "Wells", "WellSubPads", "InjectionLineStatuses"
+        ]
+      }
+    ]
+  },
+  "databases": [
+    {
+      "name": "SPT",
+      "databaseProvider": "jenny-mssql",
+      "connectionInformation": {
+        "username": "sa",
+        "password": "Password1!",
+        "server": "localhost",
+        "databaseName": "SPT"
+      },
+      "tablesConfig": {
+        "include": [
+          "Assets", "Pads", "Scenarios", "SubPads", "Wells", "WellSubPads", "InjectionLineStatuses"
+        ]
+      }
+    }
+  ],
+  "globalVariables": {
+    "dtoNamespace": "Handlebars.Dtos"
+  }
+}
