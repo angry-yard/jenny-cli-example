@@ -17,7 +17,7 @@
   "homepage": "https://github.com/angry-yard/jenny-cli-example",
   "dependencies": {},
   "devDependencies": {
-    "@templates/imodel": "0.0.1",
+    "@templates/imodel": "0.1.0",
     "@templates/csharp-rest-api": "0.0.1",
     "jenny-mssql": "^0.5.0",
     "typescript": "^2.0.3"
