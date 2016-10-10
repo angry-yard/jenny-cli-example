@@ -2,6 +2,8 @@
 
 - Install jenny-cli globally
     - `npm install -g jenny-cli`
+- Clone repo
+    - `git clone https://github.com/angry-yard/jenny-cli-example.git -n`
 - Get NPM packages, included the templates to use
     - `npm install`
 - You'll need a database to use along with SQL Server
